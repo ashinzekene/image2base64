@@ -1,21 +1,28 @@
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <title>Image to Base64</title>
-  <style>
-    .images {
-      width: 300px;
-      height: 300px;
-    }
-  </style>  
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/style.css">
 </head>
+
 <body>
-  <p>Select a file, lets change it to base 64</p>
-  <input multiple type="file" accept="imag/*" name="" id=""/>
-  <div class="data-url"></div>
-  <div class="res"></div>
+  <div class="header d-flex justify-content-center align-items-center">
+    <div class="display-3 text-white text-center">Image to Base64</div>
+  </div>
+  <div class="container pt-5">
+    <div class="custom-file">
+      <input multiple accept="image/*" type="file" class="custom-file-input" id="image-input">
+      <label class="custom-file-label mx-5">Choose an Image</label>
+    </div>
+    <div class="res py-4">
+    </div>
+  </div>
   <script src="assets/script.js"></script>
 </body>
+
 </html>
