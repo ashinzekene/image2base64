@@ -11,5 +11,8 @@
     "arraybuffer"
   ],
   "author": "ashinzekene",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
 }
